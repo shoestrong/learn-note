@@ -1,0 +1,121 @@
+$accentColor = #3eaf7c
+$textColor = #2c3e50
+$borderColor = #eaecef
+$codeBgColor = #282c34
+
+.custom
+  perspective: 600px;
+
+.piece-box
+  position: relative;
+  width: 200px;
+  min-height: 200px;
+  margin: 200px auto 50px;
+  perspective-origin: 50% 50%;
+  transform-style: preserve-3d;
+  animation: pieceRotate 5s;
+
+.piece-box2
+  transform-style: preserve-3d;
+  animation: boxRotate 5s 10s;
+
+.piece
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: red;
+  opacity: 0.6;
+  border: 5px solid #000;
+  box-sizing: border-box;
+.piece-1
+  background: #FF6666;
+  transform: rotateY(0deg) translateZ(173.2px);
+  animation: piece1Rotate 5s 5s;
+  animation-fill-mode: forwards;
+.piece-2
+  background: #FFFF00;
+  transform: rotateY(60deg) translateZ(173.2px);
+  animation: piece2Rotate 5s 5s;
+  animation-fill-mode: forwards;
+.piece-3
+  background: #006699;
+  transform: rotateY(120deg) translateZ(173.2px);
+  animation: piece3Rotate 5s 5s;
+  animation-fill-mode: forwards;
+.piece-4
+  background: #009999;
+  transform: rotateY(180deg) translateZ(173.2px);
+  animation: piece4Rotate 5s 5s;
+  animation-fill-mode: forwards;
+.piece-5
+  background: #FF0033;
+  transform: rotateY(240deg) translateZ(173.2px);
+  animation: piece5Rotate 5s 5s;
+  animation-fill-mode: forwards;
+.piece-6
+  background: #FF6600;
+  transform: rotateY(300deg) translateZ(173.2px);
+  animation: piece6Rotate 5s 5s;
+  animation-fill-mode: forwards;
+
+@keyframes pieceRotate
+  from
+    transform rotateY(0deg)
+  to
+    transform rotateY(360deg)
+
+@keyframes piece1Rotate
+  from
+    transform: rotateY(0deg) translateZ(173.2px)
+  to
+    transform:  rotateY(0deg) translateZ(100px)
+
+@keyframes piece2Rotate
+  from 
+    transform: rotateY(60deg) translateZ(173.2px)
+  to 
+    transform:  rotateY(0deg) translateZ(-100px)
+
+@keyframes piece3Rotate
+  from
+    transform: rotateY(120deg) translateZ(173.2px)
+  to
+    transform: translateX(-100px) rotateY(90deg)
+
+@keyframes piece4Rotate
+  from
+    transform: rotateY(180deg) translateZ(173.2px)
+  to
+    transform: translateX(100px) rotateY(90deg)
+
+@keyframes piece5Rotate
+  from
+    transform: rotateY(240deg) translateZ(173.2px)
+  to
+    transform: translateY(-100px) rotateX(90deg)
+
+@keyframes piece6Rotate
+  from
+    transform: rotateY(300deg) translateZ(173.2px)
+  to
+    transform: translateY(100px) rotateX(90deg)
+
+@keyframes boxRotate
+  from
+    transform rotateX(0deg) rotateY(0deg)
+  to
+    transform rotateX(360deg) rotateY(360deg)
+
+// .content
+//   pre
+//     .highlighted-line
+//       background-color #0968F7
+
+.home
+    .footer
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        padding: 1rem;

@@ -1,0 +1,22 @@
+{
+  "name": "learn_note",
+  "version": "1.0.0",
+  "description": "学习笔记",
+  "main": "index.js",
+  "repository": "https://github.com/Shoestrong/learn_note.git",
+  "author": "shoestrong <zqc_2007@yeah.net>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^0.8.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "sh deploy.sh"
+  },
+  "engines": {
+    "node": ">= 8.0.0",
+    "npm": ">= 5.0.0"
+  }
+}
