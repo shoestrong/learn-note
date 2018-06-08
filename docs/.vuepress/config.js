@@ -1,6 +1,5 @@
 module.exports = {
   base: '/',
-  logoImage: '/logo.png',
   ga: 'UA-120438114-2',
   title: '码上学习',
   description: '码上学习 - 求知若渴，虚心若愚！',
@@ -21,6 +20,7 @@ module.exports = {
   themeConfig: {
     // repo: 'Shoestrong/learn_note',
     docsDir: 'docs',
+    logo: '/logo.png',
     // editLinks: true,
     // editLinkText: '错别字纠正',
     sidebarDepth: 3,

@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /logo.png
+# heroImage: /logo.png
 # actionText: 开始学习
 # actionLink: /vue-source/
 # navbar: false
@@ -18,7 +18,7 @@ pageClass: custom-page-class
 #   details: 这套文章的特点之一就是永远不会过时，因为我们会跟随 Vue 源码 dev 分支的脚步更新文章的内容，这对于读者来讲的好处是学习的源码总是最新的(更新会有稍许延迟)。
 # - title: 深度分析 - 讲解issue
 #   details: 我们知道 Vue 这个项目自诞生以来一直都在不断的完善，添加新的特性，修复已知bug。Vue 的成长是一个历史过程，本套文章在分析源码时会根据相关 issue 分析代码的变更史。
-footer: Copyright © 2018 by Shoestrong  京ICP备17061359号-1
+footer: Copyright © 2018 京ICP备17061359号-1
 ---
 <div class="piece-box">
   <div class="piece-box2">
