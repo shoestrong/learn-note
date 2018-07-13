@@ -132,7 +132,7 @@ Gist：[requestAnimationFrame polyfill](https://gist.github.com/paulirish/157967
 
 这部分代码同样是尽可能在网站入口处就执行
 
-<br><br>
+
 
 ## http网络请求(跨域)
 
@@ -210,4 +210,4 @@ location /api/ {
 
 该配置同样是将 `http://localhost:8081/myserver/` 的目标服务端位置代理为本地服务的 `/api` 路径，如此，生产环境下的数据请求问题也得以解决
 
-<br>
+
