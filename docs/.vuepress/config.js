@@ -18,59 +18,56 @@ module.exports = {
     }
   },
   themeConfig: {
-    // repo: 'Shoestrong/learn_note',
+    repo: 'Shoestrong/learn_note',
+    repoLabel: 'Github',
     docsDir: 'docs',
     logo: '/logo.png',
     // editLinks: true,
     // editLinkText: '错别字纠正',
     sidebarDepth: 3,
     activeHeaderLinks: false,
-    lastUpdated: '更新于 ',
+    lastUpdated: '更新于 '+new Date(),
     nav: [
       {
-        text: '首页',
+        text: 'Home',
         link: '/'
       },
       {
-        text: 'vue学习笔记',
+        text: 'Javascript',
+        link: '/javascript-note/'
+      },
+      {
+        text: 'Vue',
         link: '/vue-note/'
       },
       {
-        text: 'vue源码分析',
-        link: '/vue-source/'
+        text: 'Collect',
+        link: '/collect-note/'
       }
     ],
+    sidebarDepth: 0,
     sidebar: {
-      '/vue-note/': [
-        {
-          title: 'vue学习笔记',
-          children: [
-            'vue-tip'
-          ]
-        }
+      '/javascript-note/': [
+        '',
+        'base',
+        'dom',
+        'size&Position',
+        'array',
+        'es6'
       ],
-      '/vue-source/': [
-        {
-          title: '目录',
-          children: [
-            '',
-            '1start-learn',
-            '2vue-constructor',
-            '3vue-example',
-            '4vue-normalize',
-            '5vue-merge',
-            '6vue-init-start',
-            '7vue-reactive',
-            '8vue-reactive-dep-watch',
-            '9vue-state-init',
-            '80vue-compiler-start',
-            '81vue-parse-ast',
-            '82vue-parsing',
-            '83vue-codegen',
-            '84vue-vdom',
-            '85vue-vdom-patch'
-          ]
-        }
+      '/vue-note/': [
+        '',
+        'base',
+        'component',
+        'http',
+        'ie9',
+        'plugin',
+        'hoc',
+        'tip'
+      ],
+      '/collect-note/': [
+        '',
+        'base'
       ]
     }
   }
