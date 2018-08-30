@@ -60,8 +60,6 @@ newDom.style.background='red';
 
 ---
 
-# vue注意
-
 ## Vue 数组/对象更新 视图不更新
 
 很多时候，我们习惯于这样操作数组和对象:
@@ -128,8 +126,6 @@ Vue 为了使得 DOM 元素得到最大范围的重用而实现了一些智能�
 
 ------
 
-# vue注意
-
 ## vue filters 过滤器的使用:
 
 过滤器，通常用于后台管理系统，或者一些约定类型，过滤。Vue过滤器用法是很简单，但是很多朋友可能都没有用过，这里稍微讲解一下。
@@ -168,8 +164,6 @@ export default {
 推荐看Vue[过滤器](https://cn.vuejs.org/v2/guide/filters.html)文档，你会更了解它的。
 
 ------
-
-# vue注意
 
 ## 列表渲染相关
 
@@ -229,8 +223,6 @@ v-for 的优先级比 v-if 更高,如果它们处于同一节点的话，那么�
 
 ------
 
-# vue注意
-
 ## 深度watch与watch立即触发回调
 
 watch很多人都在用，但是这watch中的这两个选项`deep`、`immediate`，或许不是很多人都知道，我猜。
@@ -266,7 +258,6 @@ watch: {
 
 ------
 
-# vue注意
 
 ## 这些情况下不要使用箭头函数:
 
@@ -305,7 +296,6 @@ this将会指向undefined。
 
 ------
 
-# vue注意
 
 ## 路由懒加载写法:
 
@@ -328,7 +318,6 @@ const router = new VueRouter({
 
 ------
 
-# vue注意
 
 ## 路由的项目启动页和404页面
 
@@ -358,7 +347,6 @@ export default new Router({
 
 ------
 
-# vue注意
 
 ## Vue调试神器:vue-devtools
 
