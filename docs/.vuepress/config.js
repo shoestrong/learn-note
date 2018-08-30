@@ -67,7 +67,8 @@ module.exports = {
       ],
       '/collect-note/': [
         '',
-        'base'
+        'base',
+        'website'
       ]
     }
   }
