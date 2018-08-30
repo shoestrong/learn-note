@@ -24,3 +24,4 @@
 ### Collect 收集
 
 - [Base 基本使用](./docs/collect-note/base.md)
+- [收集的网站](./docs/collect-note/website.md)
