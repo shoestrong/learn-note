@@ -1,4 +1,4 @@
 # 收集的网站
 
-- README的标签美化
-    - [Shields](https://www.shields.io/)
+- 美化GitHub
+    - [Shields README的标签美化](https://shields.io/)
