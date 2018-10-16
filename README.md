@@ -1,4 +1,4 @@
-# 学习笔记
+# learn-note 学习笔记 
 
 ### Javascript 目录
 
