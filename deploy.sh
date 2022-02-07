@@ -22,6 +22,6 @@ cd docs/.vuepress/dist
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
 
-scp -r ./* root@47.95.118.159:/webcontainer/learn
+scp -r ./* root@39.102.103.10:/root/web/learn-shoestrong-com
 
 cd -
