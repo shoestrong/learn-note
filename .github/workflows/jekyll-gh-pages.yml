@@ -27,7 +27,7 @@ jobs:
           cache: pnpm
       - run: pnpm i
       - name: Build
-        run: pnpm run docs:build
+        run: pnpm run build
       - uses: actions/configure-pages@v2
       - uses: actions/upload-pages-artifact@v1
         with:
