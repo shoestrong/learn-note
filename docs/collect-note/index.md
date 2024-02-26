@@ -1,5 +1,5 @@
 ---
-title: '—— Collect 收集 ——'
+title: Collect 收集'
 lang: zh-CN
 ---
 <!-- ---

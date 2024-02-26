@@ -1,5 +1,5 @@
 ---
-title: '—— Vue 目录 ——'
+title: 'Vue 目录'
 lang: zh-CN
 ---
 <!-- ---

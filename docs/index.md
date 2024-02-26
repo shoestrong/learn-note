@@ -1,7 +1,34 @@
-$accentColor = #3eaf7c
-$textColor = #2c3e50
-$borderColor = #eaecef
-$codeBgColor = #282c34
+---
+layout: home
+head:
+  - - meta
+    - name: keywords
+      content: 码上学习
+# hero:
+#   name: 码上学习
+#   text: 求知若渴，虚心若愚！
+---
+<SpotlightCursorText>
+  <div class="">求知若渴&nbsp;&nbsp;虚心若愚</div>
+</SpotlightCursorText>
+
+<div class="custom">
+  <div class="piece-box">
+    <div class="piece-box2">
+      <div class="piece piece-1"></div>
+      <div class="piece piece-2"></div>
+      <div class="piece piece-3"></div>
+      <div class="piece piece-4"></div>
+      <div class="piece piece-5"></div>
+      <div class="piece piece-6"></div>
+    </div>
+  </div>
+</div>
+
+<style lang="stylus">
+.container
+  padding: 0 !important;
+  max-width: none !important;
 
 .custom
   perspective: 600px;
@@ -11,7 +38,7 @@ $codeBgColor = #282c34
   z-index: 10;
   width: 200px;
   min-height: 200px;
-  margin: 130px auto 50px;
+  margin: 80px auto 50px;
   perspective-origin: 50% 50%;
   transform-style: preserve-3d;
   animation: pieceRotate 5s;
@@ -106,38 +133,4 @@ $codeBgColor = #282c34
     transform rotateX(0deg) rotateY(0deg)
   to
     transform rotateX(360deg) rotateY(360deg)
-
-// .content
-//   pre
-//     .highlighted-line
-//       background-color #0968F7
-
-body, html
-  height 100%
-  width 100%
-  overflow-x hidden
-  >div
-    height 100%
-    >div
-      height 100%
-#cli_dialog_div
-  position absolute
-.navbar
-  .site-name
-    background-color: #396
-    color: #fff
-    padding: 5px 10px;
-    font-size: 12px;
-    line-height 12px;
-.home
-  padding-bottom 3rem
-  .footer
-    position: fixed;
-    font-size: 12px;
-    color #aaa
-    border none
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%;
-    padding: 0.5rrem;
+</style>

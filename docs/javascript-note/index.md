@@ -1,6 +1,5 @@
 ---
-title: '—— Javascript 目录 ——'
-lang: zh-CN
+title: 'Javascript 目录'
 ---
 <!-- ---
 layout: AboutLayout
