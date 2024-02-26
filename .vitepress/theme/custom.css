@@ -19,3 +19,11 @@
 .VPButton{
   backdrop-filter: blur(30px);
 }
+
+.custom-fancybox.fancybox__container {
+  --fancybox-bg: rgba(24, 24, 27, 0.8);
+}
+
+.custom-fancybox .fancybox__slide.has-image>.fancybox__content {
+  background-color: #fff;
+}

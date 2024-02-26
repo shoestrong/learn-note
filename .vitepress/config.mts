@@ -14,6 +14,14 @@ export default defineConfig({
   srcDir: './docs',
   outDir: './dist',
   ignoreDeadLinks: true,
+  vite: {
+    resolve: {
+      alias: {
+        '@hooks': path.resolve(__dirname, '../hooks'),
+      },
+      // extensions: ['.vue', '.js', '.json'],
+    },
+  },
   themeConfig: {
     logo: '/imgs/logo.png',
     logoLink: '/learn-note/',
