@@ -90,9 +90,11 @@
 
 `package.json` 文件的作用这里就不说了，来看几个重要的字段：
 
-```sj
-"main": "dist/vue.runtime.common.js",
-"module": "dist/vue.runtime.esm.js",
+```json
+{
+  "main": "dist/vue.runtime.common.js",
+  "module": "dist/vue.runtime.esm.js",
+}
 ```
 
 `main` 和 `module` 指向的都是运行时版的Vue，不同的是：前者是 `cjs` 模块，后者是 `es` 模块。
