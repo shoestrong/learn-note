@@ -12,6 +12,7 @@ export default defineConfig({
   ],
   base: '/learn-note/',
   srcDir: './docs',
+  outDir: './dist',
   ignoreDeadLinks: true,
   themeConfig: {
     logo: '/imgs/logo.png',
