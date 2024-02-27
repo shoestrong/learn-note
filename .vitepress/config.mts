@@ -33,6 +33,9 @@ export default defineConfig({
       pattern: 'https://github.com/shoestrong/learn-note/edit/master/docs/:path',
       text: '更正错误'
     },
+    search: {
+      provider: 'local'
+    },
     footer: {
       copyright: 'Copyright © 2018-2024 by Shoestrong'
     },
