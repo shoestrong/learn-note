@@ -4,3 +4,4 @@ dist
 yarn.lock
 .history
 .DS_Store
+.vitepress/cache
