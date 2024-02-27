@@ -257,7 +257,7 @@ const str = 'aaaacaaaaaaac'
 console.log(str.match(/\S+c/)) // ['aaaacaaaaaaac']
 console.log(str.match(/\S+?c/)) // ['aaaac']
 ```
-- 3. (?:)：只匹配不捕获；
+- 3. (?\:)：只匹配不捕获；
 ```js:line-numbers
 const str = 'aaaabbbccc'
 const reg1 = /(a+)(b*)c/
