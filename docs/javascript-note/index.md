@@ -12,3 +12,4 @@ layout: AboutLayout
 - [Size and position 尺寸和定位](./size&Position.md)
 - [Array 数组操作](./array.md)
 - [ES6 实用技巧](./es6.md)
+- [Regular 正则表达式](./regExp.md)
