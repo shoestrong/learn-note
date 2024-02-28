@@ -50,6 +50,10 @@ export default defineConfig({
         link: '/vue-note/'
       },
       {
+        text: 'Realization',
+        link: '/realization/'
+      },
+      {
         text: 'Collect',
         link: '/collect-note/'
       }
