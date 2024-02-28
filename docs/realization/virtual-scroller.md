@@ -1,6 +1,6 @@
 # Virtual Scroller 虚拟滚动
 
-:::
+::: code-group
 ```vue:line-numbers [virtualScroller.vue]
 <template>
   <div class="scrollView" @scroll="onScroll">

@@ -77,6 +77,13 @@ export default defineConfig({
         documentRootPath: './docs',
         useTitleFromFileHeading: true,
         excludeFolders: ['vue-source'],
+        scanStartPath: 'realization',
+        resolvePath: '/realization/',
+      },
+      {
+        documentRootPath: './docs',
+        useTitleFromFileHeading: true,
+        excludeFolders: ['vue-source'],
         scanStartPath: 'collect-note',
         resolvePath: '/collect-note/',
       },
