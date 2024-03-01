@@ -324,7 +324,7 @@ console.log(reg.test('20.'))  // false
 6-16 为组成；必须由数字、大小写字母组成
 ::: code-group
 ```js:line-numbers{1} [checkPassword.js]
-var reg = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[\d(a-z)(A-Z)]{6,16}$/
+var reg = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[\da-zA-Z]{6,16}$/
 console.log(reg.test('233Abcd')) // true
 console.log(reg.test('2_3abcd')) // false
 ```
