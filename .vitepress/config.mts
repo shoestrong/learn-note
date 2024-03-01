@@ -2,6 +2,20 @@ import { defineConfig } from 'vitepress'
 import * as path from "path";
 import { generateSidebar } from 'vitepress-sidebar'
 
+// https://www.npmjs.com/package/vitepress-sidebar
+const renderPath = (path) => {
+  return {
+    documentRootPath: './docs',
+    useTitleFromFileHeading: true,
+    capitalizeEachWords: true,
+    useFolderLinkFromIndexFile: true,
+    collapsed: true,
+    collapseDepth: 2,
+    scanStartPath: path,
+    resolvePath: `/${path}/`,
+  }
+}
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "码上学习",
@@ -59,34 +73,10 @@ export default defineConfig({
       }
     ],
     sidebar: generateSidebar([
-      {
-        documentRootPath: './docs',
-        useTitleFromFileHeading: true,
-        excludeFolders: ['vue-source'],
-        scanStartPath: 'javascript-note',
-        resolvePath: '/javascript-note/',
-      },
-      {
-        documentRootPath: './docs',
-        useTitleFromFileHeading: true,
-        excludeFolders: ['vue-source'],
-        scanStartPath: 'vue-note',
-        resolvePath: '/vue-note/',
-      },
-      {
-        documentRootPath: './docs',
-        useTitleFromFileHeading: true,
-        excludeFolders: ['vue-source'],
-        scanStartPath: 'realization',
-        resolvePath: '/realization/',
-      },
-      {
-        documentRootPath: './docs',
-        useTitleFromFileHeading: true,
-        excludeFolders: ['vue-source'],
-        scanStartPath: 'collect-note',
-        resolvePath: '/collect-note/',
-      },
+      renderPath('javascript-note'),
+      renderPath('vue-note'),
+      renderPath('realization'),
+      renderPath('collect-note'),
     ])
   },
 })

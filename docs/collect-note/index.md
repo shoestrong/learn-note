@@ -8,6 +8,6 @@ layout: AboutLayout
 
 ### Collect 收集
 
-- [Base 基本使用](./base.md)
-- [收集的网站](./website.md)
-- [收集的面试题](./interview.md)
+- [Library 开源库](./library.md)
+- [Tools 网站](./tools.md)
+- [Interview 面试题](./interview/index.md)
