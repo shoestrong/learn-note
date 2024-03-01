@@ -40,53 +40,53 @@ export default defineConfig({
       copyright: 'Copyright © 2018-2024 by Shoestrong'
     },
     // https://vitepress.dev/reference/default-theme-config
-    // nav: [
-    //   {
-    //     text: 'Javascript',
-    //     link: '/javascript-note/'
-    //   },
-    //   {
-    //     text: 'Vue',
-    //     link: '/vue-note/'
-    //   },
-    //   {
-    //     text: 'Realization',
-    //     link: '/realization/'
-    //   },
-    //   {
-    //     text: 'Collect',
-    //     link: '/collect-note/'
-    //   }
-    // ],
-    // sidebar: generateSidebar([
-    //   {
-    //     documentRootPath: './docs',
-    //     useTitleFromFileHeading: true,
-    //     excludeFolders: ['vue-source'],
-    //     scanStartPath: 'javascript-note',
-    //     resolvePath: '/javascript-note/',
-    //   },
-    //   {
-    //     documentRootPath: './docs',
-    //     useTitleFromFileHeading: true,
-    //     excludeFolders: ['vue-source'],
-    //     scanStartPath: 'vue-note',
-    //     resolvePath: '/vue-note/',
-    //   },
-    //   {
-    //     documentRootPath: './docs',
-    //     useTitleFromFileHeading: true,
-    //     excludeFolders: ['vue-source'],
-    //     scanStartPath: 'realization',
-    //     resolvePath: '/realization/',
-    //   },
-    //   {
-    //     documentRootPath: './docs',
-    //     useTitleFromFileHeading: true,
-    //     excludeFolders: ['vue-source'],
-    //     scanStartPath: 'collect-note',
-    //     resolvePath: '/collect-note/',
-    //   },
-    // ])
+    nav: [
+      {
+        text: 'Javascript',
+        link: '/javascript-note/'
+      },
+      {
+        text: 'Vue',
+        link: '/vue-note/'
+      },
+      {
+        text: 'Realization',
+        link: '/realization/'
+      },
+      {
+        text: 'Collect',
+        link: '/collect-note/'
+      }
+    ],
+    sidebar: generateSidebar([
+      {
+        documentRootPath: './docs',
+        useTitleFromFileHeading: true,
+        excludeFolders: ['vue-source'],
+        scanStartPath: 'javascript-note',
+        resolvePath: '/javascript-note/',
+      },
+      {
+        documentRootPath: './docs',
+        useTitleFromFileHeading: true,
+        excludeFolders: ['vue-source'],
+        scanStartPath: 'vue-note',
+        resolvePath: '/vue-note/',
+      },
+      {
+        documentRootPath: './docs',
+        useTitleFromFileHeading: true,
+        excludeFolders: ['vue-source'],
+        scanStartPath: 'realization',
+        resolvePath: '/realization/',
+      },
+      {
+        documentRootPath: './docs',
+        useTitleFromFileHeading: true,
+        excludeFolders: ['vue-source'],
+        scanStartPath: 'collect-note',
+        resolvePath: '/collect-note/',
+      },
+    ])
   },
 })
