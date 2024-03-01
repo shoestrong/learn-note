@@ -37,7 +37,7 @@ export default defineConfig({
     },
   },
   themeConfig: {
-    logo: '/imgs/logo.png',
+    logo: '/image/logo.png',
     logoLink: '/learn-note/',
     siteTitle: false,
     socialLinks: [

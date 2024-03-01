@@ -245,7 +245,7 @@ console.log(8);
 
 * 在js中任务为同步任务和异步任务，不同任务在主线程上执行，而异步任务只要有了执行结果就会放入任务队列中，一旦主线程任务执行完，系统就会读取任务队列将异步任务添加到可执行任务队列中，开始执行。任务执行流程图如下:
 
-![](./image/1.png){data-fancybox="gallery"}
+![](/image/1.png){data-fancybox="gallery"}
 
 * Promise异步是提现在then和catch的，所以在then之前的是同步执行的，await是等待而在任务队列里是让出一个线程的意思await后的同步任务会先执行，但是await的任务会在任务队列里去了
 
@@ -486,16 +486,16 @@ class Example extends React.Component {
 
 正常情况下的样子是上下块撑开父元素的高度
 
-![](./image/2.png){data-fancybox="gallery"}
+![](/image/2.png){data-fancybox="gallery"}
 
 当给两个子元素设置了float属性之后，子元素不再占据父元素的空间，此时父元素的高度就为0
 
-![](./image/3.png){data-fancybox="gallery"}
+![](/image/3.png){data-fancybox="gallery"}
 
 
 当设置父元素bfc后，此时就清除了子元素浮动带来的影响，什么影响呢，就是不撑开父元素的高度的影响，那么父元素的高度就是子元素的高度为父元素添加overflow:hidden;
 
-![](./image/4.png){data-fancybox="gallery"}
+![](/image/4.png){data-fancybox="gallery"}
 
 ## 17.介绍下观察者模式和订阅-发布模式的区别，各自适用于什么场景
 
@@ -1490,7 +1490,7 @@ function getUrlParam(sUrl, sKey) {
 
 ### webpack从启动到结束一次执行顺序下
 
-![](./image/5.png){data-fancybox="gallery"}
+![](/image/5.png){data-fancybox="gallery"}
 
 * 初始化参数：从配置文件（默认webpack.config.js）和shell语句中读取合并参数，得出最终参数
 
@@ -1753,7 +1753,7 @@ axios.interceptors.response.use(response => {
 
 * Tree Diff React对树的算法进行简洁明了的优化，即对树进行分层比较，两棵树智慧相对同层进行节点比较
 
-![](./image/6.png){data-fancybox="gallery"}
+![](/image/6.png){data-fancybox="gallery"}
 
 ```js
 updateChildren: function(nextNestedChildrenElements, transaction, context) {
@@ -1843,7 +1843,7 @@ function enqueueRemove(parentInst, fromIndex) {
 
 * 可以干预事件的分发。V16引入Fiber架构，React可以通过干预事件分发优化用户交互体验
 
-![](./image/7.png){data-fancybox="gallery"}
+![](/image/7.png){data-fancybox="gallery"}
 
 ## 60.谈谈对React Hooks的理解
 
@@ -1869,7 +1869,7 @@ export type Hook = {
 
 * 官方文档一直强调React Hooks的调用只能放在函数组件、自定义Hooks函数体的顶层，这是引文我们只能通过Hooks的调用顺序来与实际保存数据的结果关联
 
-![](./image/8.png){data-fancybox="gallery"}
+![](/image/8.png){data-fancybox="gallery"}
 
 * 而且这种链表保存状态数据结构实际上是所有的React Hooks都是用这种链表方式来保存的
 
@@ -1877,7 +1877,7 @@ export type Hook = {
 
 * 当每次调用useState调用函数时候，并不会立刻对状态值进行修改，而是React内部是创建一条修改操作，在对应的Hook对象的queue的属性挂载的连表上加一个新节点
 
-![](./image/9.png){data-fancybox="gallery"}
+![](/image/9.png){data-fancybox="gallery"}
 
 * 在下次执行函数组件时，再调调用useState时，React才会根据每个Hook上挂载的更新操作的链表来计算最新的状态值，为何要这样只执行一次更新操作呢，建如下
 
