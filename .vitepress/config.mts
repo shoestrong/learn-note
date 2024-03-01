@@ -9,7 +9,7 @@ const renderPath = (path) => {
     useTitleFromFileHeading: true,
     capitalizeEachWords: true,
     useFolderLinkFromIndexFile: true,
-    collapsed: true,
+    collapsed: false,
     collapseDepth: 2,
     scanStartPath: path,
     resolvePath: `/${path}/`,
@@ -64,8 +64,8 @@ export default defineConfig({
         link: '/vue-note/'
       },
       {
-        text: 'Realization',
-        link: '/realization/'
+        text: 'Code Snippets',
+        link: '/code-snippets/'
       },
       {
         text: 'Collect',
@@ -75,7 +75,7 @@ export default defineConfig({
     sidebar: generateSidebar([
       renderPath('javascript-note'),
       renderPath('vue-note'),
-      renderPath('realization'),
+      renderPath('code-snippets'),
       renderPath('collect-note'),
     ])
   },

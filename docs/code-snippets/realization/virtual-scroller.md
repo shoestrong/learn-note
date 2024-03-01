@@ -1,4 +1,4 @@
-# Virtual Scroller 虚拟滚动
+# 虚拟滚动列表
 
 ::: code-group
 ```vue:line-numbers [virtualScroller.vue]
