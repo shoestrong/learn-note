@@ -22,7 +22,7 @@ export default defineConfig({
   description: '码上学习 - 求知若渴，虚心若愚！',
   appearance: false,
   head: [
-    ['link', { rel: 'icon', href: './favicon.ico' }]
+    ['link', { rel: 'icon', href: '/learn-note/favicon.ico' }]
   ],
   base: '/learn-note/',
   srcDir: './docs',
