@@ -23,7 +23,7 @@ jobs:
           run_install: true
       - uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: 18
           cache: pnpm
       - run: pnpm i
       - name: Build
