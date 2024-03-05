@@ -1,3 +1,7 @@
+---
+order: 6
+---
+
 # Vue 开发过程中注意
 
 ## 组件style的scoped

@@ -1,5 +1,5 @@
 ---
-order: 1
+order: 2
 ---
 
 # Proxy 与 Object.defineProperty
