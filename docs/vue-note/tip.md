@@ -347,22 +347,3 @@ export default new Router({
 
 ------
 
-
-## Vue调试神器:vue-devtools
-
-每次调试的时候，写一堆`console`是否很烦？想要**更快知道组件/Vuex内数据的变化**？
-
-那么这款**尤大开发**的调试神器:vue-devtools，你真的要了解一下了。
-
-这波稳赚不赔，真的能提高开发效率。
-
-**安装方法**：
-
-- 谷歌商店+科学上网,搜索vue-devtools即可安装。
-- 不会科学上网？[手动安装](https://segmentfault.com/a/1190000009682735)
-
-**安装之后**：
-
-在chrome开发者工具中会看一个vue的一栏，如下对我们网页应用内数据变化，组件层级等信息能够有更准确快速的了解。
-
-![img](http://ww1.sinaimg.cn/large/005Y4rCogy1fry5f9w6r4j31h9090my4.jpg)
