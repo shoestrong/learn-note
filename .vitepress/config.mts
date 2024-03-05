@@ -9,6 +9,7 @@ const renderPath = (path) => {
     useTitleFromFileHeading: true,
     capitalizeEachWords: true,
     useFolderLinkFromIndexFile: true,
+    sortMenusByFrontmatterOrder: true,
     collapsed: false,
     collapseDepth: 2,
     scanStartPath: path,

@@ -5,6 +5,7 @@ meta:
 - name: keywords
   content: vue vue源码学习
 footer: Copyright © 2018 by Shoestrong  京ICP备17061359号-1
+order: 10000
 ---
 # 前言
 [[toc]]
