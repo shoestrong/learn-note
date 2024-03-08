@@ -1,5 +1,6 @@
 # 图片类
 
+- [fancyapps](https://www.fancyapps.com/)  (图片预览放大、轮播、全景)
 - [Tinypng](https://tinypng.com/) | [智图](http://zhitu.isux.us/) (压缩图片)
 - [Squoosh](https://squoosh.app/)（图片深度压缩）
 - [标你妹啊](http://www.biaonimeia.com/login) (psd 标注)

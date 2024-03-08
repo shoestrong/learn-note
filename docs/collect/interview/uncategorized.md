@@ -2002,8 +2002,3 @@ function moveZeroArr(nums: number[]): void {
   }
 }
 ```
-
-<script setup>
-import useFancybox from '@hooks/useFancybox.ts'
-useFancybox()
-</script>
