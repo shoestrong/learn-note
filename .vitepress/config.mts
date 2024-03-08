@@ -58,26 +58,31 @@ export default defineConfig({
     nav: [
       {
         text: 'Javascript',
-        link: '/javascript-note/'
+        link: '/javascript/'
       },
       {
         text: 'Vue',
-        link: '/vue-note/'
+        link: '/vue/'
+      },
+      {
+        text: 'Engine',
+        link: '/engine/'
       },
       {
         text: 'Code Snippets',
-        link: '/code-snippets/'
+        link: '/snippet/'
       },
       {
         text: 'Collect',
-        link: '/collect-note/'
+        link: '/collect/'
       }
     ],
     sidebar: generateSidebar([
-      renderPath('javascript-note'),
-      renderPath('vue-note'),
-      renderPath('code-snippets'),
-      renderPath('collect-note'),
+      renderPath('javascript'),
+      renderPath('vue'),
+      renderPath('engine'),
+      renderPath('snippet'),
+      renderPath('collect'),
     ])
   },
 })
