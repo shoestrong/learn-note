@@ -1,20 +1,10 @@
 # 代码类
 
-- [Ubuntu pastebin](https://paste.ubuntu.com/) (代码分享)
+<!-- - [Ubuntu pastebin](https://paste.ubuntu.com/) (代码分享) -->
 - [Codepen](https://codepen.io/pens/) (在线代码编辑)
 - [Jsbin](http://jsbin.com/) (在线代码编辑)
 - [CodeSandbox](https://codesandbox.io/) (在线写React,自动编译,有代码提示)
-- [Ultimate CSS Gradient Generator](http://www.colorzilla.com/gradient-editor/) (生成 css 渐变)
-- [Grabient](https://www.grabient.com/) (生成漂亮的 css 渐变)
-- [Character Entity Reference Chart](https://dev.w3.org/html5/html-author/charref) (各种符号的转义字符)
-- [css三角形产生器](http://apps.eky.hk/css-triangle-generator/zh-hant)
-- [缓动函数速查表](https://easings.net/zh-cn?tuyiyi.com)
+
 - [Regexper](https://regexper.com/) (正则可视化)
 - [Regex101](https://regex101.com/) (正则表达式测试)
-- [Visualgo](https://visualgo.net/en) (数据结构，算法可视化)
-- [Animista](http://animista.net/) (在线生成 css 动画)
-- [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) (测试网站速度，优化性能)
-- [Learn Git Branching](https://learngitbranching.js.org/) (以动画的形式让你学习 git)
 - [Asciiflow](http://asciiflow.com/) (生成类似代码注释里那种佛祖的代码。。自己画)
-- [PXtoEM](http://pxtoem.com/) (PX EM 单位换算)
-- [epic-spinners](http://epic-spinners.epicmax.co/#/) (一个好看的css loading 代码库)
